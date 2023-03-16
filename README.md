@@ -7,6 +7,7 @@
   2. docker run -p 6333:6333 \
   -v $(pwd)/qdrant_storage:/qdrant/storage \
   qdrant/qdrant
-  3. python qdrant_instantiate.py
-  4. python population.py
-  5. streamlit run stlit.py
+  3. pip install qdrant-client
+  4. python qdrant_instantiate.py
+  5. python population.py
+  6. streamlit run stlit.py
