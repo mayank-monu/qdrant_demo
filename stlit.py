@@ -4,7 +4,7 @@ import streamlit as st
 from new_search import send_result
 
 from streamlit_chat import message
-st.title("Azure chatBot : Streamlit + openAI")
+st.title("Qdrant Demo")
 
 question = st.text_input("",value="Are Dependent Care Flexible Spending Account (DCA) rules different for a divorced parent?")
 ans_btn = st.button('Find Answers')
